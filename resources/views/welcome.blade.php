@@ -50,8 +50,8 @@
                 <td>Nom : {{$produit->nom}}</td>
                 <td>Description : {{$produit->description}}</td>
                 <td><img class="p-8 rounded-t-lg" src="{{$produit->lien_image}}" alt="product image" /></td>
-                <td>{{$produit->prix}} EUR | </td>
-                <td>{{$produit->prix*1.08}} UTC | </td>
+                <td>{{$produit->prix}} EUR</td>
+                <td>{{$produit->prix*1.08}} UTC</td>
                 <td>{{$produit->prix*0.000052}} BTC</td>
             </tr>
             @endforeach
